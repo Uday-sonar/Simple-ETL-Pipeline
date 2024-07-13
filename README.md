@@ -4,8 +4,41 @@ This project is a simple ETL (Extract, Transform, Load) pipeline implemented usi
 
 ## Features
 
-- Data Extraction: Extracts stock data from Alpha Vantage API.
-- Data Transformation: Cleans and transforms the stock data.
-- Data Loading: Loads the transformed data into a CSV file.
+- Data Extraction : Extracts stock data from Alpha Vantage API.
+- Data Transformation : Cleans and transforms the stock data.
+- Data Loading : Loads the transformed data into a CSV file.
+
+## Requirements
+
+- Python 3.8 and above
+- requests
+- pandas
+
+## Usage
+
+1. Modify the `config.json` file to specify the API details and target file path.
+
+2. Run the ETL script:
+
+    ```bash
+    python newetl.py
+    ```
+
+3. The transformed data will be saved in the `data/target` directory.
+
+
+## File Structure
+
+```plaintext
+simple-etl-pipeline/
+│
+├── data/
+│   ├── source/
+│   └── target/
+│
+├── etl.py
+├── config.json
+├── requirements.txt
+├── README.md
 
 
