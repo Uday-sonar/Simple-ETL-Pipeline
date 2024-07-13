@@ -30,7 +30,7 @@ This project is a simple ETL (Extract, Transform, Load) pipeline implemented usi
 
 ## File Structure
 
-``plaintext
+```plaintext
 simple-etl-pipeline/
 │
 ├── data/
