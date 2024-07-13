@@ -14,19 +14,6 @@ This project is a simple ETL (Extract, Transform, Load) pipeline implemented usi
 - requests
 - pandas
 
-## Usage
-
-1. Modify the `config.json` file to specify the API details and target file path.
-
-2. Run the ETL script:
-
-    ```bash
-    python newetl.py
-    ```
-
-3. The transformed data will be saved in the `data/target` directory.
-
-
 ## File Structure
 
 ```plaintext
@@ -40,5 +27,18 @@ simple-etl-pipeline/
 ├── config.json
 ├── requirements.txt
 ├── README.md
+
+
+## Usage
+
+1. Modify the `config.json` file to specify the API details and target file path.
+
+2. Run the ETL script:
+
+    ```bash
+    python newetl.py
+    ```
+
+3. The transformed data will be saved in the `data/target` directory.
 
 
