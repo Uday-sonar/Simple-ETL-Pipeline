@@ -1,0 +1,14 @@
+{
+    "url": "https://alpha-vantage12.p.rapidapi.com/query",
+    "headers": {
+        "x-rapidapi-key": "fdbc983e03msh4debc8cb5af7f0bp179c49jsnb0d75a1fd33a",
+        "x-rapidapi-host": "alpha-vantage12.p.rapidapi.com"
+    },
+    "querystring": {
+        "symbol": "VINO11.SA",
+        "apikey": "NMITMJSJJ77WJPCF",
+        "outputsize": "compact",
+        "function": "TIME_SERIES_DAILY"
+    },
+    "target_path": "data/target/output.csv"
+}
