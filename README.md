@@ -30,18 +30,20 @@ This project is a simple ETL (Extract, Transform, Load) pipeline implemented usi
 
 ## File Structure
 
-```plaintext
+``plaintext
 simple-etl-pipeline/
 │
 ├── data/
 │   ├── source/
 │   └── target/
 │
-├── etl.py
+├── newetl.py
 ├── config.json
 ├── requirements.txt
 ├── README.md
 
 
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
 
