@@ -41,6 +41,10 @@ simple-etl-pipeline/
 ├── config.json
 ├── requirements.txt
 ├── README.md
+```
 
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
 
